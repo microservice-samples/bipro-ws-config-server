@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: stattauto-config-server
+  
+  cloud:
+    config:
+      server:
+        git:
+          uri: C:\Users\Public\Documents\OOSE-Microservices-Training\GIT
+     
+    
