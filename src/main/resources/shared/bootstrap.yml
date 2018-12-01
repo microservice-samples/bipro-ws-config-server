@@ -1,11 +1,8 @@
 spring:
-  application:
-    name: bipro-ws-config-server
-  
   cloud:
     config:
       server:
         git:
           uri: C:\Users\Public\Projekte\oxygen-workspace-q4-2017\bipro-ws-config-server
      
-    
+ 
