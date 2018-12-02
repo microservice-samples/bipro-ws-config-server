@@ -1,7 +1,6 @@
 logging:
   level:
-    org.springframework.security: INFO
-
+    org.springframework.security: DEBUG
 hystrix:
   command:
     default:
@@ -9,10 +8,9 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 10000
-
 eureka:
   instance:
     prefer-ip-address: true
   client:
     serviceUrl:
-      defaultZone: http://registry:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
