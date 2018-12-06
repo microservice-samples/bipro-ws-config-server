@@ -1,6 +1,7 @@
 logging:
   level:
     org.springframework.security: DEBUG
+    org.springframework.ws: DEBUG
 hystrix:
   command:
     default:
